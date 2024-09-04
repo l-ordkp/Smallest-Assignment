@@ -53,7 +53,11 @@ def find_similar_scenario(query, index, model, scenarios, responses, threshold=0
     
     if isinstance(output, list):
         output = "".join(output)
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> b6d64ee1c9e275ff3addd2731f61429573caa935
     return scenario, output
 
 
